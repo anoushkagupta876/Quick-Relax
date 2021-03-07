@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Meditation App</title>
+</head>
+<body>
+  <div class="app">
+    <div class="time-select">
+      <button data-time="120"> 2 mins</button>
+      <button data-time="300"> 5 mins</button>
+      <button data-time="600"> 10 mins</button>
+    </div>
+      <div class="player-container">
+        <audio class="song">
+           <source src = "./Sounds/rain.mp3" />
+        </audio>
+        <img src="images/play.svg" alt="Play" 
+        class="play"/>
+        <svg 
+        class="track-outline"
+        width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="226.5" cy="226.5" r="216.5" stroke="whitesmoke" stroke-width="20"/>
+          </svg>
+          <svg 
+          class="moving-outline"
+          width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="226.5" cy="226.5" r="216.5" stroke= #01160d
+            stroke-width="21"/>
+            </svg>
+        <h3 class="time-display">00:00</h3>    
+      </div>
+      <div class="sound-picker">
+          <button data-sound="./Sounds/rain.mp3">
+          <img src="./images/coffee.png" alt="coffee"
+          class="coffee"></button>
+          <button data-sound="./Sounds/beach.mp3">
+            <img src="./images/flower.png" alt=""
+            class="flowerpot">
+          </button>
+      </div>
+      
+   
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
