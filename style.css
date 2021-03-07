@@ -3,12 +3,9 @@
   padding: 0;
  box-sizing: border-box;
 }
+html , body{
 
-html{
-  overflow-x: hidden;
-  width: auto;
-  overflow-y: hidden;
-
+  overflow-x: hidden; /* has to be scroll, not auto */
 }
 .app{
   height: 100vh;
@@ -120,8 +117,9 @@ border-radius: 100px;
 {
 
   .app{
+
     height: 100vh;
-    position: relative;
+    position: static;
   }
   .time-select{
   
