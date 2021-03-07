@@ -87,6 +87,7 @@ background-color: whitesmoke;
   height:17vh;
   background-color: rgba(39, 22, 22, 0.9);
   margin: 1px;
+  border-radius: 500px;
 }
 .flowerpot{
   height: 15vh;
