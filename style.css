@@ -162,9 +162,10 @@ margin: 0 5vw;
   }
   .player-container{
     position: relative;
+    background-color: aqua;
    width: 100%;
      top: 22%;   
-     height: 67vh;
+     height: 59vh;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%,-50%);
