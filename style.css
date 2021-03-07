@@ -4,8 +4,11 @@
  box-sizing: border-box;
 }
 
-body{
-  overflow: hidden;
+html{
+  overflow-x: hidden;
+  width: auto;
+  overflow-y: hidden;
+
 }
 .app{
   height: 100vh;
@@ -142,7 +145,7 @@ border-radius: 100px;
 
    
 height: fit-content;
-bottom: 3vh;
+bottom: 7vh;
   }
 
   .sound-picker button{
@@ -162,7 +165,7 @@ margin: 0 5vw;
   .player-container{
     position: relative;
    width: 100%;
-     top: 30%;   
+     top: 28%;   
      height: 67vh;
     left: 50%;
     margin-right: -50%;
