@@ -15,7 +15,7 @@ const outlineLength = outline.getTotalLength();
 console.log(outlineLength);
 
 //duration
-let duration = 600;
+let duration = 240;
 
 outline.style.strokeDasharray = outlineLength;
 outline.style.strokeDashoffset = outlineLength;
@@ -38,6 +38,7 @@ timeSelect.forEach(option =>{
   option.addEventListener('click', function(){
     duration = this.getAttribute("data-time");
    time.textContent = `${(Math.floor( duration/ 600))}${(Math.floor( (duration / 60) % 10))}:${(Math.floor( ((duration % 60)/10)))}${(Math.floor( (duration % 60) %10))}`;
+   song.currentTime = 0;
   });
 });
 
