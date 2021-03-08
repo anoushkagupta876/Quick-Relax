@@ -148,15 +148,15 @@ border-radius: 100px;
 
   position: absolute;
    display: block;
+background-color: aquamarine;
+bottom: 6vh;
+height: 19vh;
 
-   
-height: fit-content;
-bottom: 5vh;
   }
 
   .sound-picker button{
-margin: 0 5vw;
 
+margin: 0 2vw;
    
     }
   .coffee{
@@ -171,12 +171,12 @@ margin: 0 5vw;
   .player-container{
     position: relative;
    width: 100%;
-     top: 22%;   
+     top: 27%;   
      height: 59vh;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%,-50%);
-   
+   background-color: burlywood;
   }
   
   .player-container svg{
