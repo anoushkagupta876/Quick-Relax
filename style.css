@@ -124,6 +124,12 @@ border-radius: 100px;
 
     height: 95vh;
     position: static;
+    -webkit-appearance: none;
+  }
+
+  button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   .time-select{
   
