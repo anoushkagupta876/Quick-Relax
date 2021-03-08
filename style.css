@@ -12,10 +12,6 @@ body{
   background-color: #01160d;
 }
 
-button{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
 
 .app{
   height: 100vh;
